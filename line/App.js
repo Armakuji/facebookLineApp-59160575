@@ -39,7 +39,7 @@ app.post('/user',(req,res) => {
         previewImageUrl: req.body.picture
       };
 
-      client.pushMessage(user, message, massage1, massage2)
+      client.pushMessage(user, message, message1, message2)
       .then(() => {
         
       })
